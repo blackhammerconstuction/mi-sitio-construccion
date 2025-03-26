@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construcción en Ontario</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 20px; text-align: center; }
+        section { padding: 20px; }
+        .insta-feed { display: flex; flex-wrap: wrap; justify-content: center; }
+        .insta-post { margin: 10px; width: 300px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Renovaciones y Acabados en Ontario</h1>
+        <p>Especialistas en tabiques de metal ligero, acabados y renovaciones</p>
+    </header>
+    
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Renovaciones de interiores</li>
+            <li>Tabiques de metal ligero</li>
+            <li>Acabados de alta calidad</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Últimos Trabajos (Instagram)</h2>
+        <div class="insta-feed">
+            <!-- Aquí se insertarán posts de Instagram -->
+            <iframe src="https://www.instagram.com/p/COD7v2JnN0H/embed" class="insta-post"></iframe>
+            <iframe src="https://www.instagram.com/p/COE6k2CHn1m/embed" class="insta-post"></iframe>
+        </div>
+    </section>
+</body>
+</html>
